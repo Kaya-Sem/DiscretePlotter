@@ -1,3 +1,5 @@
 # Discrete Plotter
-### A kotlin CLI tool that lets you plot and calculate common distributions right in your terminal!
+### Plot and calculate common discrete distributions right in your terminal!
 
+- kotlin
+- python
