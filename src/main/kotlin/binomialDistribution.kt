@@ -6,24 +6,9 @@ import kotlin.math.pow
 // x = a value from 0 to n. It represents a possible outcome. It represents a random_variable X
 
 // Calculating a binomial distribution means calculation the chance for every X (random_variable) that is possible in the trials, from 0 to n
-fun calculateBinomialDistribution(n: Int, p: Double){
-
-    var k = 0
-
-        // calculate (1-p)^n-k
-
-
-    while (k < n+1){
-
+fun calculateBinomialDistribution(n: Int, p: Double, k: Int): Double{
         val chance = (1-p).pow(n-k)
-
-
-
-        println("The change of the experiment returning $k times true is: ${ calculateBinomial(n, k) * p.pow(k) * chance }")
-        println("")
-        k++
-    }
-
+    return calculateBinomial(n,k)* p.pow(k) * chance
 
     }
 
