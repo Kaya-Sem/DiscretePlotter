@@ -5,7 +5,11 @@ fun main(args: Array<String>) {
     printName()
 
 
-    println(calculateBinomial(10,2))
+    calculateBinomialDistribution(10, 0.50)
+
+
+
+
 
 
 
